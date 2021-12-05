@@ -1,1 +1,2 @@
 # MyPortfolio
+## This is a landing page detailing my background, projects and motivation to pursue programming. 
