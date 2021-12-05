@@ -18,6 +18,10 @@ https://apondi-otieno.github.io/MyPortfolio/
  1. HTML
  2. CSS
 
+### Display
+![Screenshot from 2021-12-05 21-40-25](https://user-images.githubusercontent.com/93314840/144759284-682f382c-2d3c-495f-92eb-3312e46bd299.png)
+
+
 
 ### Known Bugs
 There are no bugs at the moment but if you spot any reach me at apondioti@gmail.com
