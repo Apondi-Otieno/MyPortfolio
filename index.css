@@ -1,0 +1,21 @@
+#mein
+{
+ width: 100%;
+    display: flex;
+    
+}
+
+header{
+    background-color: yellow;
+
+    
+
+}
+
+body{
+    background-color: orangered;
+    padding: 4rem;
+    margin-left: 20%;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,78 @@
+html {
+  margin: 20rem;
+  padding: 0rem;
+  background: url("images/pic3.jpeg") no-repeat center fixed;
+  background-size: cover;
+  margin: 50px auto 50px auto;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#content-1 a:hover {
+  color: rgb(250, 255, 0);
+  font-weight: 900;
+}
+
+main {
+  background-color: rgba(232, 235, 239, 0.3);
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  background-color: rgb(148, 252, 242);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.column {
+    padding: 20px;
+    margin: 10px 10px 10px 0;
+}
+
+#PreviousProjects {
+  background-color: rgba(225, 229, 238, 0.267);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  height: ;
+
+
+footer > a {
+  color: black;
+}
+
+#introduction {
+  background-color: rgb(213, 183, 255);
+  flex: 2;
+ 
+}
+
+#contactme {
+  background-color: rgb(41, 188, 204);
+  flex: 1;
+  
+}
+
+footer {
+  background-color: rgb(148, 252, 242);
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+#content-1 a:hover {
+  color: rgb(250, 255, 0);
+  font-weight: 900;
+}
+
+footer a:hover {
+  font-weight: 900;
+  font-style: italic;
+  color: rgb(255, 0, 250);
+}
