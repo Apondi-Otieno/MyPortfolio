@@ -4,10 +4,26 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Add icon library -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <!----CSS CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!------JS CDN-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <!------font------>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,83 +41,92 @@
 
 <body>
     <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="https://github.com/Apondi-Otieno" target="_blank"
+                            rel="noopener noreferrer"><strong>APONDI
+                                OTIENO</strong></a>
+                    </li>
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="https://github.com/Apondi-Otieno" target="_blank" rel="noopener noreferrer"><strong>APONDI
-                            OTIENO</strong></a>
-                </li>
+                </ul>
+            </nav>
 
-            </ul>
-        </nav>
-
-
+        </div>
 
     </header>
     <main>
         <div id="mein">
-            <div id="PreviousProjects" class="column">
-                <h2>Projects</h2>
-                <ul>
-                    <li>
-                        <a href="https://apondi-otieno.github.io/Burger-Palace/" target="_blank"
-                            rel="noopener noreferrer">Burger Palace</a>
-                    </li>
-                    <p>This is a landing page for a burger restaurant. Languages used are HTML5 and CSS</p>
-                    <li>
-                        <a href="https://apondi-otieno.github.io/letuce-eat/" target="_blank"
-                            rel="noopener noreferrer">Lettuce Eat </a>
-                    </li>
-                    <p>This is a landing page for a traditional restaurant. Languages used are HTML5 and CSS</p>
-                </ul>
+            <div class="container-lg">
+                <div id="PreviousProjects" class="column">
+                    <h2>Projects</h2>
+                    <ul>
+                        <li>
+                            <a href="https://apondi-otieno.github.io/Burger-Palace/" target="_blank"
+                                rel="noopener noreferrer">Burger Palace</a>
+                        </li>
+                        <p>This is a landing page for a burger restaurant. Languages used are HTML5 and CSS</p>
+                        <li>
+                            <a href="https://apondi-otieno.github.io/letuce-eat/" target="_blank"
+                                rel="noopener noreferrer">Lettuce Eat </a>
+                        </li>
+                        <p>This is a landing page for a traditional restaurant. Languages used are HTML5 and CSS</p>
+                    </ul>
 
+                </div>
             </div>
-            <div id="introduction" class="column">
-                <h2> About Me</h2>
-                <p> My name is Beryl Apondi Otieno and there's nothing i love more than writing. While
-                    everyone else was figuring out how to play in the sand,i was filling my notebooks with
-                    words. Aside from passionately using words to describe life,i code, i'm currently enrolled at
-                    Moringa for the software development program. I have a background in pure and applied mathematics, i
-                    recently compeleted my bachelor's degree.
-                    <br>
-                    <br>
-                    I decided to study programming in order to acquire skills
-                    which would enable to create a diagnostic tool for mental healthcare in Africa and beyond, most
-                    mentally
-                    sick patients live their lives without ever finding out whether or not they are sick, a situation
-                    that
-                    leads to many deaths by suicide. on top of early intervention i'd like to apply my technical skills
-                    in
-                    helping children from abusive families find safe houses/foster parents/ support as they try to gain
-                    independence from their abusers.</p>
+            <div class="container-lg">
+                <div id="introduction" class="column">
+                    <h2> About Me</h2>
+                    <p> My name is Beryl Apondi Otieno and there's nothing i love more than writing. While
+                        everyone else was figuring out how to play in the sand,i was filling my notebooks with
+                        words. Aside from passionately using words to describe life,i code, i'm currently enrolled at
+                        Moringa for the software development program. I have a background in pure and applied
+                        mathematics, i
+                        recently compeleted my bachelor's degree.
+                        <br>
+                        <br>
+                        I decided to study programming in order to acquire skills
+                        which would enable to create a diagnostic tool for mental healthcare in Africa and beyond, most
+                        mentally
+                        sick patients live their lives without ever finding out whether or not they are sick, a
+                        situation
+                        that
+                        leads to many deaths by suicide. on top of early intervention i'd like to apply my technical
+                        skills
+                        in
+                        helping children from abusive families find safe houses/foster parents/ support as they try to
+                        gain
+                        independence from their abusers.</p>
+                </div>
             </div>
-
-
-            <div id="contactme" class="column">
-                <h2>Hobies and Skills</h2>
-                <ol>
-                    <li>Cooking,Baking and curating recipes</li>
-                    <li>Writing</li>
-                    <li>Design</li>
-                    <li>Music, classical music</li>
-                    <li><a href="https://traumaroots.wordpress.com/" target="_blank"
-                            rel="noopener noreferrer">Blogging</a></li>
-                </ol>
-                <div class="form">
-                    <h2>Contact Me </h2>
-                    <form action="mailto:apondioti@gmail.com" method="post" enctype="multipart/form-data"
-                        name="EmailForm">
-                        <label for="name"> NAME</label>
-                        <input type="text" name="fname" placeholder="Your Name" required>
-                        <label for="message"> SUBJECT</label>
-                        <input type="text" name="fname" placeholder="How can i help?" style="height: 200px;" required>
-                        <input type="submit" value="Submit">
-                    </form>
+            <div class="container-lg">
+                <div id="contactme" class="column">
+                    <h2>Hobies and Skills</h2>
+                    <ol>
+                        <li>Cooking,Baking and curating recipes</li>
+                        <li>Writing</li>
+                        <li>Design</li>
+                        <li>Music, classical music</li>
+                        <li><a href="https://traumaroots.wordpress.com/" target="_blank"
+                                rel="noopener noreferrer">Blogging</a></li>
+                    </ol>
+                    <div class="form">
+                        <h2>Contact Me </h2>
+                        <form action="mailto:apondioti@gmail.com" method="post" enctype="multipart/form-data"
+                            name="EmailForm">
+                            <label for="name"> NAME</label>
+                            <input type="text" name="fname" placeholder="Your Name" required>
+                            <label for="message"> SUBJECT</label>
+                            <input type="text" name="fname" placeholder="How can i help?" style="height: 200px;"
+                                required>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-
     </main>
     <footer>
         <p>Copyright &copy 2021. All rights reserved.</p>
