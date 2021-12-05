@@ -1,41 +1,40 @@
 html {
-  margin: 20rem;
-  padding: 0rem;
-  background: url("images/pic3.jpeg") no-repeat center fixed;
-  background-size: cover;
-  margin: 50px auto 50px auto;
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    margin: 20rem;
+    padding: 0rem;
+    background: url("images/pic3.jpeg") no-repeat center fixed;
+    background-size: cover;
+    margin: 50px auto 50px auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-#content-1 a:hover {
-  color: rgb(250, 255, 0);
-  font-weight: 900;
-}
+
 
 main {
-  background-color: rgba(232, 235, 239, 0.3);
+
   height: 100%;
   display: flex;
+ 
   justify-content: space-between;
 }
 
 footer {
-  background-color: rgb(148, 252, 242);
+  background-color: rgba(4, 2, 10, 0.336);
   display: flex;
   justify-content: space-around;
   padding: 10px;
 }
 
 .column {
-    padding: 20px;
-    margin: 10px 10px 10px 0;
+  padding: 20px;
+  margin: 10px 10px 10px 0;
 }
 
 #PreviousProjects {
-  background-color: rgba(225, 229, 238, 0.267);
+ background-color: rgba(7, 9, 14, 0.267);
+
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -43,36 +42,41 @@ footer {
 }
 
 
-footer > a {
-  color: black;
-}
 
-#introduction {
-  background-color: rgb(213, 183, 255);
+#introduction { 
+    background-color: rgba(255, 192, 203, 0.664) ;
   flex: 2;
- 
 }
 
 #contactme {
-  background-color: rgb(41, 188, 204);
+  background-color: rgba(1, 1, 19, 0.363);
   flex: 1;
   
 }
 
+
+ol li{
+    color: aliceblue;
+    font-family: 'josefin sans';
+    font-size: 1.6rem;
+}
+
+ol li a {
+    text-decoration: none;
+    
+}
+
+ol a:hover {
+    color: blueviolet;
+}
 footer {
-  background-color: rgb(148, 252, 242);
+  background-color: rgba(10, 8, 29, 0.192);
   display: flex;
   justify-content: space-around;
   padding: 10px;
 }
 
-#content-1 a:hover {
-  color: rgb(250, 255, 0);
-  font-weight: 900;
-}
-
-footer a:hover {
-  font-weight: 900;
-  font-style: italic;
-  color: rgb(255, 0, 250);
+a:hover {
+  color: crimson;
+  font-weight: 700;
 }

@@ -1,21 +1,85 @@
-#mein
-{
- width: 100%;
-    display: flex;
+#mein {
+  width: 100%;
+  display: flex;
+}
+
+
+
+
+body {
+
+
+  background-size: cover;
+  background-color: rgba(20, 3, 5, 0.596);
+  padding: 4rem;
+  margin-left: 10%;
+  width: 120%;
+  height: 80%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 3rem;
+  margin-left: 30%;
+  font-family: 'EB Garamond';
+  
+  font-weight: 700;
+}
+
+nav ul li {
+  list-style-type: none;
+ 
+}
+
+.fa {
+  font-size: 1.3rem;
+  padding: 10px;
+
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+footer > p {
+  font-size: 1.4rem;
+  font-family: 'josefin sans';
+  color: aliceblue;
+}
+
+h2 {
+    font-family: 'EB garamond';
+    text-decoration: underline;
+   font-weight: 700;
+    font-size: 3rem;
+    padding: 1rem;
+    color:pink;
+}
+
+p {
+    font-family: 'josefin sans';
+    font-size: 1.4rem;
+}
+
+a {
+    color: whitesmoke;
     
 }
 
-header{
-    background-color: yellow;
-
-    
-
+#PreviousProjects> ul li {
+    list-style-type: none;
+   
 }
 
-body{
-    background-color:rgba(26, 26, 56, 0.658);
-    padding: 4rem;
-    margin-left: 10%;
-    width: 120%;
-    height: 80%;
+#PreviousProjects> ul li a {
+    text-decoration: none;
+    font-family: 'EB garamond';
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: pink;
+}
+
+#PreviousProjects> ul p {
+    color: whitesmoke;
 }
