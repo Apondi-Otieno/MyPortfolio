@@ -75,3 +75,9 @@ a:hover {
   color: crimson;
   font-weight: 700;
 }
+
+form {
+    color: whitesmoke;
+    font-family: 'EB garamond';
+    font-size: 1.4rem;
+}
