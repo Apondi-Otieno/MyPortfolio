@@ -9,7 +9,7 @@ https://apondi-otieno.github.io/MyPortfolio/
 
 ### Set-up and installation requirements
 
- 1. Go to my repo at
+ 1. Go to my repo at https://github.com/Apondi-Otieno/MyPortfolio
  2. Clone the repo
  3. cd the project, then go live.
 
